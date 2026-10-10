@@ -1,0 +1,1875 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rizal's Journey to Heroism</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div id="bar" aria-hidden="true"></div>
+    <header class="top">
+      <a class="brand" href="#home">Rizal's Journey to Heroism</a>
+      <button id="menu-btn" aria-expanded="false" aria-controls="menu">Chapters</button>
+      <nav id="menu" aria-label="Chapters">
+        <a href="#home">Home</a><a href="#young">Young Rizal</a><a href="#learner">Learner</a
+        ><a href="#traveler">Traveler</a><a href="#writer">Writer</a
+        ><a href="#reformer">Reformer</a><a href="#exile">Exile</a
+        ><a href="#final">Final Journey</a><a href="#hero">Hero</a><a href="#refs">Sources</a>
+      </nav>
+      <span id="where" class="where" aria-live="polite"></span>
+    </header>
+
+    <section id="voice" aria-label="Voice reader">
+      <button id="v-read">Read this chapter</button><button id="v-pause">Pause</button
+      ><button id="v-resume">Resume</button><button id="v-stop">Stop</button>
+      <label
+        >Speed <input id="v-rate" type="range" min="0.6" max="1.5" step="0.1" value="1"
+      /></label>
+      <label
+        >Voice
+        <select id="v-voice"></select
+      ></label>
+      <span id="v-status" role="status">Reader: stopped</span>
+      <small
+        >Reads paragraphs and detail panels only. Double-click a paragraph to start there.</small
+      >
+    </section>
+
+    <main id="main">
+      <!-- HOME -->
+      <section class="chapter" id="home" data-title="Home">
+        <div class="hero">
+          <div>
+            <h1>Rizal's Journey to Heroism</h1>
+            <p class="lede">
+              Experiences, ideas, and courageous choices shaped a young man from Calamba into a
+              national hero. Follow the story one scene at a time.
+            </p>
+            <p>
+              In June 1861, a boy was born into a comfortable family in a Laguna town ruled by a
+              distant empire. Nothing about his birth marked him for history. He studied, travelled,
+              wrote, argued, healed, and finally accepted the consequences of his convictions.
+            </p>
+            <p>
+              <strong>Central question:</strong> How did an ordinary Filipino's experiences,
+              education, writings, and choices contribute to his becoming a national hero? The
+              answer is not given up front. Gather it chapter by chapter.
+            </p>
+            <p>
+              <a class="btn" href="#young">Begin the Journey</a>
+              <a class="btn alt" href="#chapters">Explore the chapters</a>
+            </p>
+          </div>
+          <figure class="ph tall">
+            <button class="ph-btn" data-label="Jose Rizal">
+              <img
+                src="images/jose-rizal.jpg"
+                alt="Portrait of José Rizal"
+                onerror="this.remove()"
+              /><span>Add images/jose-rizal.jpg</span><b>Jose Rizal</b>
+            </button>
+            <figcaption class="figcap">A historical portrait of Rizal.</figcaption>
+          </figure>
+        </div>
+        <p class="cue">Scroll for the chapters and timeline</p>
+        <h2 id="chapters">Explore the chapters</h2>
+        <div class="cards">
+          <a href="#young"
+            ><i>1</i><b>The Young Rizal</b><span>Calamba, family, first lessons.</span></a
+          >
+          <a href="#learner"
+            ><i>2</i><b>The Learner</b><span>Ateneo, Santo Tomas, Madrid, Heidelberg.</span></a
+          >
+          <a href="#traveler"
+            ><i>3</i><b>The Traveler</b><span>Places that widened his view.</span></a
+          >
+          <a href="#writer"
+            ><i>4</i><b>The Writer</b><span>Two novels, essays, poems, letters.</span></a
+          >
+          <a href="#reformer"
+            ><i>5</i><b>The Reformer</b><span>Propaganda Movement and Liga Filipina.</span></a
+          >
+          <a href="#exile"
+            ><i>6</i><b>The Exile</b><span>Dapitan: doctor, teacher, builder.</span></a
+          >
+          <a href="#final"
+            ><i>7</i><b>The Final Journey</b><span>Arrest, trial, Bagumbayan.</span></a
+          >
+          <a href="#hero"
+            ><i>8</i><b>The Hero</b><span>Connecting the evidence; a reflection for youth.</span></a
+          >
+          <a href="#refs"
+            ><i>9</i><b>References and Sources</b><span>Where the facts come from.</span></a
+          >
+        </div>
+        <h2>Timeline</h2>
+        <p>Select a milestone to read about it and jump to its chapter.</p>
+        <div class="tl" role="group" aria-label="Timeline milestones">
+          <button
+            data-ch="young"
+            data-t="Born in Calamba, Laguna, on June 19, 1861, the seventh of eleven children of Francisco Mercado and Teodora Alonso."
+          >
+            1861
+          </button>
+          <button
+            data-ch="learner"
+            data-t="Entered the Ateneo Municipal de Manila in 1872 and graduated in 1877 with distinction, then continued at Santo Tomas."
+          >
+            1872
+          </button>
+          <button
+            data-ch="traveler"
+            data-t="Sailed for Spain in May 1882 to continue medical studies, beginning years of travel and study in Europe."
+          >
+            1882
+          </button>
+          <button data-ch="writer" data-t="Noli Me Tangere was printed in Berlin in 1887.">
+            1887
+          </button>
+          <button data-ch="writer" data-t="El Filibusterismo was published in Ghent in 1891.">
+            1891
+          </button>
+          <button
+            data-ch="exile"
+            data-t="Founded the Liga Filipina in July 1892, was arrested days later, and was sent to Dapitan."
+          >
+            1892
+          </button>
+          <button
+            data-ch="final"
+            data-t="Executed by firing squad at Bagumbayan, Manila, on December 30, 1896."
+          >
+            1896
+          </button>
+        </div>
+        <p id="tl-out" class="tl-out" aria-live="polite">Choose a year above.</p>
+      </section>
+
+      <section class="chapter" id="young" data-title="The Young Rizal" hidden>
+        <header class="ch-head">
+          <h2 tabindex="-1">Chapter 1: The Young Rizal</h2>
+          <p class="lede">
+            A lakeside town, a household of readers, and a childhood lesson in how power could be
+            misused.
+          </p>
+        </header>
+        <div class="story">
+          <div class="split">
+            <figure class="ph">
+              <button class="ph-btn" data-label="Calamba, Laguna">
+                <img
+                  src="images/calamba-laguna.jpg"
+                  alt="Scene of Calamba, Laguna"
+                  onerror="this.remove()"
+                /><span>Add images/calamba-laguna.jpg</span><b>Calamba, Laguna</b>
+              </button>
+              <figcaption class="figcap">
+                Calamba, the town where Rizal was born on June 19, 1861.
+              </figcaption>
+            </figure>
+            <div>
+              <p>
+                José Protasio Rizal Mercado y Alonso Realonda was born in Calamba, a farming town on
+                the shore of Laguna de Bay. He was the seventh of eleven children, and the only boy
+                among the younger siblings. His father, Francisco Mercado, and his mother, Teodora
+                Alonso, were hard-working tenants on land owned by a religious order. They were not
+                poor, and they could afford books, tutors, and schooling, which was rare for a
+                provincial Filipino family of the time.
+              </p>
+              <p>
+                Rizal's first teacher was his mother. She taught him letters and prayers, and
+                encouraged him to love poetry and drawing. His older brother Paciano, who had
+                studied in Manila, became his adviser and, later, a quiet supporter of his work. In
+                1870 he was sent to a teacher in nearby Biñan, where he found that learning could
+                also mean memorizing and discipline. Much of his later impatience with rote
+                schooling can be traced to such experiences, though he never wrote of them as a
+                single turning point.
+              </p>
+            </div>
+          </div>
+          <div class="split rev">
+            <div>
+              <p>
+                In 1871 his mother was arrested on a charge that her family and many later
+                biographers considered false, and was taken to a jail in Santa Cruz, Laguna, far
+                from home. Rizal was ten years old. The next year, three Filipino priests, Gómez,
+                Burgos, and Zamora, were executed after the Cavite mutiny, and Paciano had been
+                close to Burgos. The Rizal household learned, directly and painfully, that a
+                respectable name did not protect anyone from arbitrary power.
+              </p>
+              <p>
+                None of this made Rizal a hero. A ten-year-old does not decide to be one. But it
+                supplied questions that would stay with him: Who gets treated fairly? Who decides?
+                What happens to people with no voice? His books, essays, and school in Dapitan can
+                be read as long answers to those questions.
+              </p>
+            </div>
+            <figure class="ph">
+              <button class="ph-btn" data-label="The execution of Gómburza, 1872">
+                <img
+                  src="images/gomburza.png"
+                  alt="Illustration related to the Gómburza priests"
+                  onerror="this.remove()"
+                /><span>Add images/gomburza.jpg</span><b>The execution of Gómburza, 1872</b>
+              </button>
+              <figcaption class="figcap">
+                The Gómburza affair of 1872 shaped the political atmosphere of Rizal's boyhood.
+              </figcaption>
+            </figure>
+          </div>
+          <button class="why" aria-expanded="false" aria-controls="w1">Why did this matter?</button>
+          <div class="panel" id="w1" hidden>
+            <dl>
+              <dt>What happened?</dt>
+              <dd>
+                In 1871 Rizal's mother was arrested and jailed, and in 1872 three Filipino priests
+                were executed.
+              </dd>
+              <dt>Why was it important?</dt>
+              <dd>
+                It showed him, inside his own family, how colonial justice could be arbitrary and
+                how little ordinary Filipinos could do about it.
+              </dd>
+              <dt>How did it influence him?</dt>
+              <dd>
+                Rizal later wrote about wrongful accusation, abuse of authority, and the fear that
+                follows. Historians generally treat these events as one influence among many, not
+                the sole cause.
+              </dd>
+              <dt>What did he do as a result?</dt>
+              <dd>
+                He dedicated his second novel to the three priests and kept returning to the theme
+                of unjust trials.
+              </dd>
+              <dt>How did it contribute to his journey to heroism?</dt>
+              <dd>
+                It planted questions of justice that education, travel, and writing would later
+                sharpen.
+              </dd>
+            </dl>
+          </div>
+          <div class="gallery">
+            <figure class="ph">
+              <button class="ph-btn" data-label="Teodora Alonso">
+                <img
+                  src="images/teodora-alonso-realonda.jpg"
+                  alt="Portrait of Teodora Alonso, mother of José Rizal"
+                  onerror="this.remove()"
+                /><span>Add images/teodora-alonso-realonda.jpg</span><b>Teodora Alonso</b>
+              </button>
+              <figcaption class="figcap">
+                Teodora Alonso, Rizal's mother and first teacher.
+              </figcaption>
+            </figure>
+            <figure class="ph">
+              <button class="ph-btn" data-label="Paciano Rizal">
+                <img
+                  src="images/paciano-rizal.jpg"
+                  alt="Portrait of Paciano Rizal"
+                  onerror="this.remove()"
+                /><span>Add images/paciano-rizal.jpg</span><b>Paciano Rizal</b>
+              </button>
+              <figcaption class="figcap">Paciano, his older brother and adviser.</figcaption>
+            </figure>
+            <figure class="ph">
+              <button class="ph-btn" data-label="Laguna de Bay">
+                <img
+                  src="images/laguna-de-bay.jpg"
+                  alt="View of Laguna de Bay"
+                  onerror="this.remove()"
+                /><span>Add images/laguna-de-bay.jpg</span><b>Laguna de Bay</b>
+              </button>
+              <figcaption class="figcap">The lake beside which he grew up.</figcaption>
+            </figure>
+          </div>
+        </div>
+        <aside class="takeaway">
+          <h3>Key takeaway</h3>
+          <p>
+            Rizal's values grew from a learning-centered family and an early, personal encounter
+            with injustice.
+          </p>
+          <p class="q">Reflect: Which early experience first made you care about fairness?</p>
+        </aside>
+      </section>
+      <section class="chapter" id="learner" data-title="The Learner" hidden>
+        <header class="ch-head">
+          <h2 tabindex="-1">Chapter 2: The Learner</h2>
+          <p class="lede">
+            From a Calamba parlor to Manila, Madrid, Paris, Heidelberg, and Berlin: a mind built in
+            many classrooms.
+          </p>
+        </header>
+        <div class="story">
+          <h3>Learning before school</h3>
+          <p>
+            Rizal's education began at home. His mother taught him to read and pray, and tutors came
+            to the house, among them Maestro Celestino, Maestro Lucas Padua, and later Leon Monroy,
+            an old classmate of his father. Around 1869 he was sent to a private school in Biñan run
+            by Justiniano Aquino Cruz. The lessons there were strict and heavy on memorization, and
+            he later remembered the long hours and the punishments, but he also learned Latin and
+            Spanish well enough to stand out.
+          </p>
+          <h3>Ateneo Municipal de Manila, 1872–1877</h3>
+          <div class="split">
+            <figure class="ph">
+              <button class="ph-btn" data-label="Ateneo, where Rizal studied 1872–77">
+                <img
+                  src="images/ateneo-de-manila.jpg"
+                  alt="Ateneo Municipal de Manila"
+                  onerror="this.remove()"
+                /><span>Add images/ateneo-de-manila-university.jpg</span
+                ><b>Ateneo, where Rizal studied 1872–77</b>
+              </button>
+              <figcaption class="figcap">
+                The Ateneo Municipal in Intramuros was run by the Jesuits.
+              </figcaption>
+            </figure>
+            <div>
+              <p>
+                In 1872 Rizal entered the Ateneo Municipal, a Jesuit school in Intramuros. His
+                Spanish was weaker than that of many classmates, so he took extra Spanish lessons
+                outside school and worked until he reached the top of the class. The Jesuit method
+                was demanding: daily recitation, competitions between students, and emphasis on
+                character as well as grades. It also encouraged art, poetry, and science, and he
+                found a mentor in Father Francisco de Paula Sánchez.
+              </p>
+              <p>
+                He graduated in March 1877 with a Bachelor of Arts and the highest marks. In
+                parallel he completed the surveying course and passed the surveying examination,
+                which later gave him a profession he could fall back on. At Ateneo he learned that
+                discipline and curiosity could go together.
+              </p>
+            </div>
+          </div>
+          <h3>University of Santo Tomas, 1877–1882</h3>
+          <div class="split rev">
+            <div>
+              <p>
+                Rizal then enrolled at the University of Santo Tomas, the oldest university in
+                Manila, founded in 1611. He began with philosophy and letters, and in 1878 switched
+                to medicine, a decision tied to his mother's failing eyesight. These were also years
+                of writing. His poem to Filipino youth won recognition in 1879, and his allegorical
+                play <em>El Consejo de los Dioses</em> was recognized in a literary contest in 1880.
+              </p>
+              <p>
+                Yet by his own accounts he was dissatisfied. He felt that the teaching was rigid,
+                and that Filipino students were not treated as equals to their Spanish classmates.
+                That feeling helped push him to decide, in 1882, to continue his studies in Spain,
+                partly without telling his parents.
+              </p>
+            </div>
+            <figure class="ph">
+              <button class="ph-btn" data-label="University of Santo Tomas">
+                <img
+                  src="images/ust.jpg"
+                  alt="University of Santo Tomas, Manila"
+                  onerror="this.remove()"
+                /><span>Add images/university-of-santo-tomas.jpg</span
+                ><b>University of Santo Tomas</b>
+              </button>
+              <figcaption class="figcap">
+                Santo Tomas, where Rizal studied from 1877 to 1882.
+              </figcaption>
+            </figure>
+          </div>
+          <h3>Madrid, 1882–1885</h3>
+          <div class="split">
+            <figure class="ph">
+              <button class="ph-btn" data-label="Universidad Central de Madrid">
+                <img
+                  src="images/universidad-central-de-madrid.jpg"
+                  alt="Universidad Central de Madrid building"
+                  onerror="this.remove()"
+                /><span>Add images/universidad-central-de-madrid.jpg</span
+                ><b>Universidad Central de Madrid</b>
+              </button>
+              <figcaption class="figcap">
+                The Central University, where he studied medicine and philosophy and letters.
+              </figcaption>
+            </figure>
+            <div>
+              <p>
+                In Madrid, Rizal enrolled at the Universidad Central in two programs at once:
+                medicine, and philosophy and letters. He completed the medical licentiate in 1884
+                and the philosophy and letters work in 1885. His learning was never confined to
+                those lecture halls. He took painting and sculpture classes at the Academy of Fine
+                Arts of San Fernando, studied languages, and trained in fencing and shooting at a
+                gymnasium. He also read widely, joined Filipino circles in the city, and watched how
+                Spaniards debated politics in public.
+              </p>
+            </div>
+          </div>
+          <h3>Paris and Heidelberg, 1885–1886</h3>
+          <p>
+            After finishing in Madrid, he left to specialize in eye diseases. In Paris he worked in
+            the clinic of the ophthalmologist Louis de Wecker. In early 1886 he moved to Heidelberg,
+            where he trained in the university's eye clinic under Otto Becker and also studied
+            German. In the evenings and weekends he wrote letters, sketched, and composed poetry,
+            including "A las flores de Heidelberg".
+          </p>
+          <div class="gallery">
+            <figure class="ph">
+              <button class="ph-btn" data-label="Heidelberg University">
+                <img
+                  src="images/heidelberg-university.jpg"
+                  alt="Heidelberg University building"
+                  onerror="this.remove()"
+                /><span>Add images/heidelberg-university.jpg</span><b>Heidelberg University</b>
+              </button>
+              <figcaption class="figcap">Where he trained in eye surgery in 1886.</figcaption>
+            </figure>
+            <figure class="ph">
+              <button class="ph-btn" data-label="Paris">
+                <img src="images/paris.jpg" alt="View of Paris" onerror="this.remove()" /><span
+                  >Add images/paris.jpg</span
+                ><b>Paris</b>
+              </button>
+              <figcaption class="figcap">He worked in a Paris eye clinic in 1885–86.</figcaption>
+            </figure>
+          </div>
+          <h3>Berlin and self-education</h3>
+          <p>
+            In late 1886 he went to Berlin, where he joined scientific societies and met scholars
+            such as Rudolf Virchow and Feodor Jagor, who respected his work on Philippine languages
+            and ethnology. This was the most independent stage of his learning. No curriculum
+            assigned him anything; he studied what he thought a Filipino writer needed to know. By
+            common accounts he came to know more than ten languages, which let him read sources
+            directly rather than through translators.
+          </p>
+          <ol class="steps">
+            <li><b>c. 1869</b> Home tutors and a private school in Biñan</li>
+            <li><b>1872–77</b> Ateneo Municipal de Manila, plus surveying studies</li>
+            <li><b>1877–82</b> University of Santo Tomas: philosophy and letters, then medicine</li>
+            <li><b>1882–85</b> Universidad Central de Madrid, plus fine-arts classes</li>
+            <li><b>1885</b> Paris: eye clinic of Dr. de Wecker</li>
+            <li><b>1886</b> Heidelberg: eye clinic of Dr. Becker</li>
+            <li><b>1886–87</b> Berlin: scientific societies and self-directed study</li>
+          </ol>
+          <button class="why" aria-expanded="false" aria-controls="w2">
+            How did this shape Rizal?
+          </button>
+          <div class="panel" id="w2" hidden>
+            <dl>
+              <dt>What happened?</dt>
+              <dd>
+                Between about age eight and twenty-five he moved through home tutoring, a private
+                school, a Jesuit college, a Dominican university, a Spanish university, and German
+                and French clinics.
+              </dd>
+              <dt>Why was it important?</dt>
+              <dd>
+                He gained advanced knowledge in medicine, art, and the humanities, and he learned to
+                compare how different institutions taught and governed.
+              </dd>
+              <dt>How did it influence him?</dt>
+              <dd>
+                In Europe he saw universities where debate was open. That contrast made colonial
+                restrictions on Filipino education and expression harder to accept.
+              </dd>
+              <dt>What did he do as a result?</dt>
+              <dd>
+                He decided to write about education, and in Dapitan he ran a school of his own.
+              </dd>
+              <dt>How did it contribute to his journey to heroism?</dt>
+              <dd>
+                Education gave him skills and standards. Heroism depended on how he used them for
+                others.
+              </dd>
+            </dl>
+          </div>
+          <button class="why" aria-expanded="false" aria-controls="w12">
+            Why did he choose to study eye diseases?
+          </button>
+          <div class="panel" id="w12" hidden>
+            <dl>
+              <dt>What happened?</dt>
+              <dd>
+                His mother, Teodora Alonso, was losing her eyesight, and Rizal switched to medicine
+                and then specialized in ophthalmology.
+              </dd>
+              <dt>Why was it important?</dt>
+              <dd>
+                It was a personal reason that became a professional path, which brought him to
+                leading eye clinics in Paris and Heidelberg.
+              </dd>
+              <dt>How did it influence him?</dt>
+              <dd>
+                Training under respected specialists in Europe confirmed that Filipinos could meet
+                high professional standards.
+              </dd>
+              <dt>What did he do as a result?</dt>
+              <dd>
+                He treated patients in Hong Kong and Dapitan, and operated on his mother's eyes in
+                1895.
+              </dd>
+              <dt>How did it contribute to his journey to heroism?</dt>
+              <dd>
+                Medicine became one of the ways he served others, a theme that connects his early
+                studies to his years in exile.
+              </dd>
+            </dl>
+          </div>
+          <button class="why" aria-expanded="false" aria-controls="w13">
+            Why did his learning go beyond schools?
+          </button>
+          <div class="panel" id="w13" hidden>
+            <dl>
+              <dt>What happened?</dt>
+              <dd>
+                Alongside formal degrees he studied art, languages, fencing, ethnology, and history.
+              </dd>
+              <dt>Why was it important?</dt>
+              <dd>
+                A colonial education system limited what Filipinos could be taught, so he built the
+                rest himself.
+              </dd>
+              <dt>How did it influence him?</dt>
+              <dd>
+                He read Philippine history and languages in order to answer writers who described
+                Filipinos as inferior.
+              </dd>
+              <dt>What did he do as a result?</dt>
+              <dd>
+                He edited Morga's history and wrote essays and novels with that evidence in mind.
+              </dd>
+              <dt>How did it contribute to his journey to heroism?</dt>
+              <dd>
+                His independent learning is why his writings read as informed arguments rather than
+                only complaints.
+              </dd>
+            </dl>
+          </div>
+          <div class="gallery">
+            <figure class="ph">
+              <button class="ph-btn" data-label="Academy of Fine Arts, Madrid">
+                <img
+                  src="images/madrid-fine-arts.jpg"
+                  alt="Academy of Fine Arts of San Fernando, Madrid"
+                  onerror="this.remove()"
+                /><span>Add images/madrid-fine-arts.jpg</span><b>Academy of Fine Arts, Madrid</b>
+              </button>
+              <figcaption class="figcap">
+                He studied painting and sculpture there alongside medicine.
+              </figcaption>
+            </figure>
+            <figure class="ph">
+              <button class="ph-btn" data-label="Berlin">
+                <img src="images/berlin.jpg" alt="View of Berlin" onerror="this.remove()" /><span
+                  >Add images/berlin.jpg</span
+                ><b>Berlin</b>
+              </button>
+              <figcaption class="figcap">He joined scientific societies in 1886–87.</figcaption>
+            </figure>
+          </div>
+        </div>
+        <aside class="takeaway">
+          <h3>Key takeaway</h3>
+          <p>
+            Rizal's education was far wider than a single degree. It combined formal schooling,
+            professional training, art, languages, and self-study, and it gave him the knowledge and
+            the habit of comparison that made colonial injustice visible to him.
+          </p>
+          <p class="q">
+            Reflect: What have you learned outside the classroom that school never taught you?
+          </p>
+        </aside>
+      </section>
+      <section class="chapter" id="traveler" data-title="The Traveler" hidden>
+        <header class="ch-head">
+          <h2 tabindex="-1">Chapter 3: The Traveler</h2>
+          <p class="lede">
+            Each port taught him something about power, freedom, and what a nation could be.
+          </p>
+        </header>
+        <div class="story">
+          <p>
+            Rizal travelled for about a decade, and his journeys had a pattern. In Spain he met
+            Filipino students and liberal Spaniards. In France and Germany he met scientists,
+            ethnologists, and ordinary families who welcomed him. In Britain he spent long days in a
+            famous library. In each place he compared what he saw with life in the Philippines.
+          </p>
+          <div class="split">
+            <figure class="ph">
+              <button class="ph-btn" data-label="Madrid, 1882–85">
+                <img
+                  src="images/madrid.jpg"
+                  alt="Street scene in Madrid"
+                  onerror="this.remove()"
+                /><span>Add images/madrid.jpg</span><b>Madrid, 1882–85</b>
+              </button>
+              <figcaption class="figcap">
+                Madrid, where Rizal studied and joined Filipino circles.
+              </figcaption>
+            </figure>
+            <div>
+              <p>
+                <strong>Spain, 1882–85.</strong> He sailed past Singapore, Colombo, Suez, and
+                Naples. In Madrid he met other Filipinos, including future Propaganda leaders, and
+                saw that a Spanish liberal press could criticize its own government. For a young
+                Filipino, that was a revelation.
+              </p>
+              <p>
+                <strong>Paris, Heidelberg, Berlin, 1885–87.</strong> He worked with eye specialists,
+                stayed in a German pastor's home in Wilhelmsfeld, and joined scientific societies in
+                Berlin. There, among scholars who treated him as an equal, he finished
+                <em>Noli Me Tangere</em>, printed in 1887 with money lent by a friend, Maximo Viola.
+              </p>
+            </div>
+          </div>
+          <div class="split rev">
+            <div>
+              <p>
+                <strong>Asia and America, 1888.</strong> After a short return to Calamba, where he
+                saw his family's land dispute with the hacienda, he left again via Hong Kong and
+                Japan, then crossed the United States by train. In Japan he admired the order and
+                courtesy of society, and in America he noticed both its opportunities and its racial
+                prejudice.
+              </p>
+              <p>
+                <strong>London, Paris, Brussels, Ghent, 1888–91.</strong> In London he read early
+                Spanish accounts of the islands in the British Museum and prepared his edition of
+                Morga's history. He then joined the reform campaign in Spain and Paris and finished
+                <em>El Filibusterismo</em> in Ghent. He ended the decade in Hong Kong, setting up a
+                clinic before returning to Manila in June 1892.
+              </p>
+            </div>
+            <figure class="ph">
+              <button class="ph-btn" data-label="British Museum, London">
+                <img
+                  src="images/british-museum.jpg"
+                  alt="Facade of the British Museum"
+                  onerror="this.remove()"
+                /><span>Add images/british-museum.jpg</span><b>British Museum, London</b>
+              </button>
+              <figcaption class="figcap">
+                He studied early Philippine history in the library of the British Museum, then
+                housed in this building.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery">
+            <figure class="ph">
+              <button class="ph-btn" data-label="Wilhelmsfeld, Germany">
+                <img
+                  src="images/wilhelmsfeld.jpg"
+                  alt="Village of Wilhelmsfeld"
+                  onerror="this.remove()"
+                /><span>Add images/wilhelmsfeld.jpg</span><b>Wilhelmsfeld, Germany</b>
+              </button>
+              <figcaption class="figcap">
+                Where he stayed with a pastor's family in 1886.
+              </figcaption>
+            </figure>
+            <figure class="ph">
+              <button class="ph-btn" data-label="Berlin">
+                <img src="images/berlin.jpg" alt="View of Berlin" onerror="this.remove()" /><span
+                  >Add images/berlin.jpg</span
+                ><b>Berlin</b>
+              </button>
+              <figcaption class="figcap">Where he finished the Noli.</figcaption>
+            </figure>
+            <figure class="ph">
+              <button class="ph-btn" data-label="Hong Kong">
+                <img
+                  src="images/hong-kong.jpg"
+                  alt="View of Hong Kong"
+                  onerror="this.remove()"
+                /><span>Add images/hong-kong.jpg</span><b>Hong Kong</b>
+              </button>
+              <figcaption class="figcap">A base for his later plans.</figcaption>
+            </figure>
+          </div>
+          <button class="why" aria-expanded="false" aria-controls="w3">Connect the events</button>
+          <div class="panel" id="w3" hidden>
+            <dl>
+              <dt>What happened?</dt>
+              <dd>
+                Over about ten years he lived in or visited Spain, France, Germany, Britain,
+                Belgium, Japan, Hong Kong, and the United States.
+              </dd>
+              <dt>Why was it important?</dt>
+              <dd>It let him compare legal systems, schools, and colonial attitudes first-hand.</dd>
+              <dt>How did it influence him?</dt>
+              <dd>
+                His essays and letters repeatedly measure Philippine conditions against what he had
+                observed elsewhere, rather than treating the colony as the only possible world.
+              </dd>
+              <dt>What did he do as a result?</dt>
+              <dd>
+                He researched Philippine history in London and wrote for Filipino readers from
+                abroad.
+              </dd>
+              <dt>How did it contribute to his journey to heroism?</dt>
+              <dd>Travel widened him from personal grievance to a national outlook.</dd>
+            </dl>
+          </div>
+        </div>
+        <aside class="takeaway">
+          <h3>Key takeaway</h3>
+          <p>
+            Travel gave Rizal comparison, contacts, and the distance to describe his country
+            clearly.
+          </p>
+          <p class="q">Reflect: What have you learned about home by seeing somewhere else?</p>
+        </aside>
+      </section>
+     <section class="chapter" id="writer" data-title="The Writer" hidden>
+  <header class="ch-head">
+    <h2 tabindex="-1">Chapter 4: The Writer</h2>
+    <p class="lede">He chose the pen because it could reach people who would never meet him.</p>
+  </header>
+  <div class="story">
+    <h3>Why he wrote</h3>
+    <p>
+      Rizal began writing as a student. In 1879 he won a literary contest with a poem addressed to
+      Filipino youth, and in 1880 his allegorical play <em>El Consejo de los Dioses</em> was
+      recognized in another. In 1882 he published an essay on love of country under the pen name
+      Laong Laan. These early works show a young man testing what writing could do. By the time he
+      reached Europe, he had decided it could do more than entertain: it could describe a society to
+      itself and to the people who ruled it.
+    </p>
+    <div class="books">
+      <figure class="ph book">
+        <button class="ph-btn" data-label="Noli Me Tangere (1887)">
+          <img
+            src="images/noli-me-tangere.jpg"
+            alt="Cover of Noli Me Tangere"
+            onerror="this.remove()"
+          /><span>Add images/noli-me-tangere.jpg</span><b>Noli Me Tangere (1887)</b>
+        </button>
+        <figcaption class="figcap">
+          Cover of an early edition of the Noli, printed in Berlin.
+        </figcaption>
+      </figure>
+      <figure class="ph book">
+        <button class="ph-btn" data-label="El Filibusterismo (1891)">
+          <img
+            src="images/el-filibusterismo.jpg"
+            alt="Cover of El Filibusterismo"
+            onerror="this.remove()"
+          /><span>Add images/el-filibusterismo.jpg</span><b>El Filibusterismo (1891)</b>
+        </button>
+        <figcaption class="figcap">The second novel, published in Ghent.</figcaption>
+      </figure>
+      <figure class="ph book">
+        <button class="ph-btn" data-label="Mi último adiós (1896)">
+          <img
+            src="images/mi-ultimo-adios.jpg"
+            alt="Manuscript or printing of Mi último adiós"
+            onerror="this.remove()"
+          /><span>Add images/mi-ultimo-adios.jpg</span><b>Mi último adiós (1896)</b>
+        </button>
+        <figcaption class="figcap">His farewell poem, written in Fort Santiago.</figcaption>
+      </figure>
+    </div>
+    <h3>Noli Me Tangere, 1887</h3>
+    <div class="split">
+      <figure class="ph">
+        <button class="ph-btn" data-label="Berlin, 1887">
+          <img src="images/berlin.jpg" alt="View of Berlin" onerror="this.remove()" /><span
+            >Add images/berlin.jpg</span
+          ><b>Berlin, 1887</b>
+        </button>
+        <figcaption class="figcap">The Noli was finished and printed in Berlin.</figcaption>
+      </figure>
+      <div>
+        <p>
+          Rizal proposed writing a novel about the Philippines while still in Madrid in 1884, and
+          drafted parts of it in Madrid and Paris. He finished it in Berlin in early 1887. Money ran
+          short, and the printing was made possible by a loan from his friend Máximo Viola. The
+          first copies came out in March 1887.
+        </p>
+        <p>
+          The title comes from Latin words meaning "touch me not", and the book is a dedication to
+          his country. It follows Crisóstomo Ibarra, a young man back from Europe who wants to build
+          a school in his hometown of San Diego. He meets the arrogance of Padre Dámaso, the
+          scheming of Padre Salví, the sorrow of the mother Sisa, and the idealism of the boatman
+          Elías. Rizal packed the book with characters who stand for different parts of colonial
+          society, from the powerful to the powerless.
+        </p>
+      </div>
+    </div>
+    <p>
+      Spanish authorities and religious orders reacted angrily, and the book was banned in the
+      Philippines. Copies still entered the country, were passed among readers, and were treated by
+      officials as a sign of suspicion. Whether readers loved or hated it, it made people talk about
+      things that were usually left unsaid.
+    </p>
+    <h3>El Filibusterismo, 1891</h3>
+    <div class="split rev">
+      <div>
+        <p>
+          Rizal began the sequel in London in 1888 and finished it in 1891. It is a darker, faster
+          book. Its central figure, Simoun, a wealthy jeweler who is secretly Ibarra returned in
+          disguise, plans a violent plot against the system. Around him are the student Isagani, the
+          young Basilio, the farmer Kabesang Tales, and Padre Florentino. The plot fails, and the
+          novel asks whether revenge can ever fix what injustice has broken.
+        </p>
+        <p>
+          Printing was again a struggle. In Ghent, Belgium, Rizal ran out of money, and a friend,
+          Valentín Ventura, advanced funds so the printing could be completed. The novel appeared in
+          September 1891, dedicated to the priests Gómez, Burgos, and Zamora, whose execution in
+          1872 had left a mark on his youth.
+        </p>
+      </div>
+      <figure class="ph">
+        <button class="ph-btn" data-label="Ghent, Belgium">
+          <img src="images/ghent.jpg" alt="View of Ghent" onerror="this.remove()" /><span
+            >Add images/ghent.jpg</span
+          ><b>Ghent, Belgium</b>
+        </button>
+        <figcaption class="figcap">
+          The city where El Filibusterismo was printed in 1891.
+        </figcaption>
+      </figure>
+    </div>
+    <button class="why" aria-expanded="false" aria-controls="w4">
+      What changed because of this?
+    </button>
+    <div class="panel" id="w4" hidden>
+      <dl>
+        <dt>What happened?</dt>
+        <dd>Between 1887 and 1891 Rizal published two novels, and from 1889 several essays.</dd>
+        <dt>Why was it important?</dt>
+        <dd>
+          They described colonial abuses in detail, in a form that Filipinos and Spaniards could
+          read.
+        </dd>
+        <dt>How did it influence him?</dt>
+        <dd>Writing made him a public figure and a target for those who disliked his criticism.</dd>
+        <dt>What did he do as a result?</dt>
+        <dd>He continued with essays, scholarship, and organizing for reform.</dd>
+        <dt>How did it contribute to his journey to heroism?</dt>
+        <dd>
+          He accepted personal risk by naming problems openly. How far the books inspired later
+          revolutionary thought is debated by historians.
+        </dd>
+      </dl>
+    </div>
+    <button class="why" aria-expanded="false" aria-controls="w5">
+      Why fiction, not just essays?
+    </button>
+    <div class="panel" id="w5" hidden>
+      <dl>
+        <dt>What happened?</dt>
+        <dd>Rizal wrote the Noli as fiction in 1887 rather than only as an argument.</dd>
+        <dt>Why was it important?</dt>
+        <dd>Stories let readers feel injustice through people rather than statistics.</dd>
+        <dt>How did it influence him?</dt>
+        <dd>
+          He wanted Filipinos to recognize themselves and Spaniards to hear what they were avoiding.
+        </dd>
+        <dt>What did he do as a result?</dt>
+        <dd>He added essays and history when he wanted to make arguments directly.</dd>
+        <dt>How did it contribute to his journey to heroism?</dt>
+        <dd>
+          The mix of imagination and evidence gave his message reach beyond political circles.
+        </dd>
+      </dl>
+    </div>
+    <h3>Essays, history, and letters</h3>
+    <div class="split">
+      <figure class="ph">
+        <button class="ph-btn" data-label="La Solidaridad">
+          <img
+            src="images/la-solidaridad.jpg"
+            alt="Issue of La Solidaridad newspaper"
+            onerror="this.remove()"
+          /><span>Add images/la-solidaridad.jpg</span><b>La Solidaridad</b>
+        </button>
+        <figcaption class="figcap">
+          Rizal's essays appeared in the Propaganda Movement's newspaper.
+        </figcaption>
+      </figure>
+      <div>
+        <p>
+          Rizal's essays were shorter and more direct. "The Philippines a Century Hence" (1889–90)
+          considered what might happen to the colony if reforms were refused. "On the Indolence of
+          the Filipino" (1890) answered the common claim that Filipinos were lazy by pointing to the
+          heat, the forced labor, the lack of incentive, and the discouragement built into colonial
+          life. Both appeared in <em>La Solidaridad</em>. In 1889 he also wrote a Tagalog letter to
+          a group of young women in Malolos who had asked for a night school.
+        </p>
+      </div>
+    </div>
+    <div class="split rev">
+      <div>
+        <p>
+          He also turned to history. In London he read the early Spanish chronicle
+          <em>Sucesos de las Islas Filipinas</em> by Antonio de Morga, first printed in 1609, and
+          published an annotated edition in Paris in 1890. His notes were meant to show that
+          Filipinos had a society and culture before Spain arrived, and that the descriptions
+          written by colonizers should not be taken as the whole truth.
+        </p>
+      </div>
+      <figure class="ph">
+        <button class="ph-btn" data-label="Morga's Sucesos de las Islas Filipinas">
+          <img
+            src="images/morga-sucesos.jpg"
+            alt="Title page of Morga's Sucesos de las Islas Filipinas"
+            onerror="this.remove()"
+          /><span>Add images/morga-sucesos.jpg</span><b>Morga's Sucesos de las Islas Filipinas</b>
+        </button>
+        <figcaption class="figcap">
+          The 1609 book that Rizal annotated and republished in 1890.
+        </figcaption>
+      </figure>
+    </div>
+    <button class="why" aria-expanded="false" aria-controls="w14">
+      How did his essays answer stereotypes?
+    </button>
+    <div class="panel" id="w14" hidden>
+      <dl>
+        <dt>What happened?</dt>
+        <dd>In 1890 he wrote "On the Indolence of the Filipino" for La Solidaridad.</dd>
+        <dt>Why was it important?</dt>
+        <dd>A charge of laziness was used to justify harsh rule, so answering it mattered.</dd>
+        <dt>How did it influence him?</dt>
+        <dd>
+          He argued that the climate, the colonial system, and the lack of rewards for work
+          explained what observers called idleness.
+        </dd>
+        <dt>What did he do as a result?</dt>
+        <dd>
+          He backed his arguments with history and with comparison to other societies he had seen.
+        </dd>
+        <dt>How did it contribute to his journey to heroism?</dt>
+        <dd>It showed that reform arguments could be made with evidence, not only anger.</dd>
+      </dl>
+    </div>
+    <button class="why" aria-expanded="false" aria-controls="w15">
+      Why did he annotate Morga?
+    </button>
+    <div class="panel" id="w15" hidden>
+      <dl>
+        <dt>What happened?</dt>
+        <dd>In 1890 he published an annotated edition of an early history of the Philippines.</dd>
+        <dt>Why was it important?</dt>
+        <dd>He wanted Filipinos to see themselves as people with a past before colonization.</dd>
+        <dt>How did it influence him?</dt>
+        <dd>
+          The research in London convinced him that outsiders' accounts were incomplete and
+          sometimes biased.
+        </dd>
+        <dt>What did he do as a result?</dt>
+        <dd>
+          He edited and commented on the text, and used it in his later arguments about the nation.
+        </dd>
+        <dt>How did it contribute to his journey to heroism?</dt>
+        <dd>It gave later Filipinos a historical basis for national identity.</dd>
+      </dl>
+    </div>
+    <div class="split">
+      <figure class="ph">
+        <button class="ph-btn" data-label="Ferdinand Blumentritt">
+          <img
+            src="images/ferdinand-blumentritt.jpg"
+            alt="Portrait of Ferdinand Blumentritt"
+            onerror="this.remove()"
+          /><span>Add images/ferdinand-blumentritt.jpg</span><b>Ferdinand Blumentritt</b>
+        </button>
+        <figcaption class="figcap">
+          The Austrian scholar who corresponded with Rizal for years.
+        </figcaption>
+      </figure>
+      <div>
+        <p>
+          His letters are another part of the record. He wrote to his family, to fellow reformers
+          such as Marcelo H. del Pilar and Mariano Ponce, and to the Austrian scholar Ferdinand
+          Blumentritt, with whom he exchanged letters from 1886 on. They show how his ideas
+          developed over time and how he explained his plans to different audiences. Historians use
+          them to check what he said in public against what he said in private.
+        </p>
+        <p>
+          His last writings came in exile and prison, including the poem "Mi último adiós," written
+          in December 1896. Taken together, his works describe conditions, argue that Filipinos are
+          capable of self-government, and model how to answer power with evidence.
+        </p>
+      </div>
+    </div>
+    <h3>More of his important writings</h3>
+    <p>
+      The two novels are only part of a large body of work. Rizal wrote poems, plays, essays,
+      scholarly notes, translations, letters, and political documents over about twenty years. Each
+      group below served a different purpose, and reading them side by side shows how his thinking
+      grew from schoolboy verse to national argument.
+    </p>
+    <h4 class="wh">Poems and plays</h4>
+    <div class="works">
+      <article class="work">
+        <h4>Mi Primera Inspiración <small>1874</small></h4>
+        <p>
+          A poem written for his mother's birthday when he was a young student. It is the earliest
+          of his poems that scholars treat as securely his.
+        </p>
+      </article>
+      <article class="work">
+        <h4>A la juventud filipina <small>1879</small></h4>
+        <p>
+          The poem that won a Manila contest. It calls on young Filipinos to use their talents in
+          art and letters, and it is among his most quoted early works.
+        </p>
+      </article>
+      <article class="work">
+        <h4>Junto al Pasig <small>1880</small></h4>
+        <p>
+          A short drama written while he was still an Ateneo student, showing his early interest in
+          theater.
+        </p>
+      </article>
+      <article class="work">
+        <h4>El Consejo de los Dioses <small>1880</small></h4>
+        <p>
+          An allegorical play in which gods debate the value of literature. It won recognition in a
+          Manila literary contest.
+        </p>
+      </article>
+      <article class="work">
+        <h4>A las flores de Heidelberg <small>1886</small></h4>
+        <p>
+          Written while he was studying in Germany. It reflects on flowers, distance, and thoughts
+          of home.
+        </p>
+      </article>
+      <article class="work">
+        <h4>Mi Retiro <small>1895</small></h4>
+        <p>
+          A poem written in Dapitan, describing the quiet life of exile and addressed to his mother.
+        </p>
+      </article>
+      <article class="work">
+        <h4>Mi último adiós <small>1896</small></h4>
+        <p>
+          His farewell poem, written in Fort Santiago before his execution. Its title was given
+          later, not by Rizal.
+        </p>
+      </article>
+    </div>
+    <h4 class="wh">Essays and articles</h4>
+    <div class="works">
+      <article class="work">
+        <h4>El Amor Patrio <small>1882</small></h4>
+        <p>
+          An essay on love of country, published in a Manila newspaper under the pen name Laong
+          Laan. It is one of his first public writings on the subject.
+        </p>
+      </article>
+      <article class="work">
+        <h4>Reply to Vicente Barrantes <small>1889</small></h4>
+        <p>
+          Rizal defended the Noli in La Solidaridad against the Spanish writer who had attacked it,
+          answering the criticism point by point.
+        </p>
+      </article>
+      <article class="work">
+        <h4>Sa mga Kababayang Dalaga sa Malolos <small>1889</small></h4>
+        <p>
+          A Tagalog letter praising the women of Malolos who asked for a night school, and urging
+          women to value education and independent thought.
+        </p>
+      </article>
+      <article class="work">
+        <h4>Filipinas dentro de cien años <small>1889–90</small></h4>
+        <p>
+          A serial essay in La Solidaridad on what might happen to the colony if reforms were
+          denied.
+        </p>
+      </article>
+      <article class="work">
+        <h4>Sobre la indolencia de los filipinos <small>1890</small></h4>
+        <p>
+          A reply to the claim that Filipinos were lazy, explaining it through colonial conditions.
+        </p>
+      </article>
+      <article class="work">
+        <h4>Sobre la nueva ortografía de la lengua tagalog <small>1890</small></h4>
+        <p>
+          An essay proposing a modern spelling for Tagalog, showing his interest in language as part
+          of identity.
+        </p>
+      </article>
+    </div>
+    <h4 class="wh">Scholarship and translation</h4>
+    <div class="works">
+      <article class="work">
+        <h4>Annotated Sucesos de las Islas Filipinas <small>1890</small></h4>
+        <p>
+          His edition of Antonio de Morga's early history, with notes meant to recover the
+          Philippines' pre-colonial past.
+        </p>
+      </article>
+      <article class="work">
+        <h4>Tagalog Wilhelm Tell <small>1886</small></h4>
+        <p>
+          His translation of Friedrich Schiller's play into Tagalog, which brought a story of
+          resistance to tyranny to Filipino readers.
+        </p>
+      </article>
+      <article class="work">
+        <h4>Studies of Philippine languages <small>1880s</small></h4>
+        <p>
+          Notes and comparisons of Tagalog and other Philippine languages, which won respect among
+          European scholars.
+        </p>
+      </article>
+    </div>
+    <h4 class="wh">Letters, memoirs, and political documents</h4>
+    <div class="works">
+      <article class="work">
+        <h4>Letters to Ferdinand Blumentritt <small>from 1886</small></h4>
+        <p>
+          Years of correspondence with the Austrian scholar on languages, history, and politics.
+        </p>
+      </article>
+      <article class="work">
+        <h4>Correspondence with fellow reformers <small>1880s–90s</small></h4>
+        <p>
+          Letters to Marcelo H. del Pilar, Mariano Ponce, and others, showing agreement and
+          disagreement within the movement.
+        </p>
+      </article>
+      <article class="work">
+        <h4>Memorias de un estudiante de Manila <small>student years</small></h4>
+        <p>
+          Reflections on his student life in Manila, an early view of how he saw school and colonial
+          society.
+        </p>
+      </article>
+      <article class="work">
+        <h4>Statutes of the Liga Filipina <small>1892</small></h4>
+        <p>The rules he drafted for the civic association he founded in Manila.</p>
+      </article>
+      <article class="work">
+        <h4>Exchange with Fr. Pablo Pastells <small>Dapitan years</small></h4>
+        <p>Letters in which Rizal and a Jesuit priest discussed religion and belief.</p>
+      </article>
+      <article class="work">
+        <h4>Manifesto to Certain Filipinos <small>Dec. 15, 1896</small></h4>
+        <p>His written statement from prison condemning the uprising and denying involvement.</p>
+      </article>
+    </div>
+    <div class="gallery">
+      <figure class="ph">
+        <button class="ph-btn" data-label="Letters to Blumentritt">
+          <img
+            src="images/rizal-letters.jpg"
+            alt="Letter written by José Rizal"
+            onerror="this.remove()"
+          /><span>Add images/rizal-letters.jpg</span><b>Letters to Blumentritt</b>
+        </button>
+        <figcaption class="figcap">
+          Rizal's correspondence survives in archives and in published collections.
+        </figcaption>
+      </figure>
+      <figure class="ph">
+        <button class="ph-btn" data-label="Statutes of the Liga Filipina">
+          <img
+            src="images/liga-filipina-statutes.png"
+            alt="Document of the Liga Filipina statutes"
+            onerror="this.remove()"
+          /><span>Add images/liga-filipina-statutes.jpg</span><b>Statutes of the Liga Filipina</b>
+        </button>
+        <figcaption class="figcap">The rules Rizal drafted in 1892.</figcaption>
+      </figure>
+    </div>
+    <button class="why" aria-expanded="false" aria-controls="w16">
+      How do his writings show his growth?
+    </button>
+    <div class="panel" id="w16" hidden>
+      <dl>
+        <dt>What happened?</dt>
+        <dd>
+          Over about twenty years his writing moved from school poems and plays to essays,
+          scholarship, and political documents.
+        </dd>
+        <dt>Why was it important?</dt>
+        <dd>The sequence shows the same person developing, not a single outburst of protest.</dd>
+        <dt>How did it influence him?</dt>
+        <dd>
+          Each form taught him something. Poetry trained his voice, scholarship gave him evidence,
+          and letters helped him test ideas with others.
+        </dd>
+        <dt>What did he do as a result?</dt>
+        <dd>
+          By the 1890s he combined these skills in essays, a civic association, and finally a calm
+          prison statement.
+        </dd>
+        <dt>How did it contribute to his journey to heroism?</dt>
+        <dd>
+          His record shows consistent concern for education, justice, and dignity, which is why
+          later generations trusted his words.
+        </dd>
+      </dl>
+    </div>
+    <ol class="steps">
+      <li><b>1879</b> Poem to Filipino youth wins a contest</li>
+      <li><b>1882</b> Essay on love of country</li>
+      <li><b>1887</b> Noli Me Tangere printed in Berlin</li>
+      <li><b>1889–90</b> Essays in La Solidaridad</li>
+      <li><b>1890</b> Annotated edition of Morga, Paris</li>
+      <li><b>1891</b> El Filibusterismo published in Ghent</li>
+      <li><b>1896</b> Farewell poem written before execution</li>
+    </ol>
+  </div>
+  <aside class="takeaway">
+    <h3>Key takeaway</h3>
+    <p>
+      Rizal used novels, essays, scholarship, and letters to make injustice visible and to argue
+      that Filipinos had a past, a voice, and the ability to govern themselves.
+    </p>
+    <p class="q">Reflect: When is it worth the risk to say something in public?</p>
+  </aside>
+</section>
+      <section class="chapter" id="reformer" data-title="The Reformer" hidden>
+        <header class="ch-head">
+          <h2 tabindex="-1">Chapter 5: The Reformer</h2>
+          <p class="lede">Documented goals first, later interpretations second.</p>
+        </header>
+        <div class="story">
+          <div class="split">
+            <div>
+              <p>
+                By the late 1880s, Filipino students and professionals in Spain were campaigning for
+                change in what became known as the Propaganda Movement. They asked for
+                representation in the Spanish parliament, equal treatment under the law, freedom of
+                speech and the press, and a larger role for Filipino priests. Their paper,
+                <em>La Solidaridad</em>, was founded in Barcelona in February 1889, and Rizal wrote
+                for it under pen names such as Laong Laan and Dimasalang.
+              </p>
+              <p>
+                Rizal's main emphasis was education and moral responsibility. He wrote that rights
+                were not simply given; people had to show their worth. He admired Marcelo H. del
+                Pilar and Graciano López Jaena, the paper's leaders, but he disagreed with them at
+                times about tactics and leadership, a reminder that reform movements were made of
+                real people with real differences.
+              </p>
+            </div>
+            <figure class="ph">
+              <button class="ph-btn" data-label="La Solidaridad (1889–95)">
+                <img
+                  src="images/la-solidaridad.jpg"
+                  alt="Issue of La Solidaridad newspaper"
+                  onerror="this.remove()"
+                /><span>Add images/la-solidaridad.jpg</span><b>La Solidaridad (1889–95)</b>
+              </button>
+              <figcaption class="figcap">The newspaper of the Propaganda Movement.</figcaption>
+            </figure>
+          </div>
+          <div class="gallery">
+            <figure class="ph">
+              <button class="ph-btn" data-label="Marcelo H. del Pilar">
+                <img
+                  src="images/marcelo-h-del-pilar.jpg"
+                  alt="Portrait of Marcelo H. del Pilar"
+                  onerror="this.remove()"
+                /><span>Add images/marcelo-h-del-pilar.jpg</span><b>Marcelo H. del Pilar</b>
+              </button>
+              <figcaption class="figcap">Editor of La Solidaridad.</figcaption>
+            </figure>
+            <figure class="ph">
+              <button class="ph-btn" data-label="Graciano López Jaena">
+                <img
+                  src="images/graciano-lopez-jaena.jpg"
+                  alt="Portrait of Graciano López Jaena"
+                  onerror="this.remove()"
+                /><span>Add images/graciano-lopez-jaena.jpg</span><b>Graciano López Jaena</b>
+              </button>
+              <figcaption class="figcap">Founding editor of the paper.</figcaption>
+            </figure>
+            <figure class="ph">
+              <button class="ph-btn" data-label="Liga Filipina">
+                <img
+                  src="images/liga-filipina.jpg"
+                  alt="Image related to the Liga Filipina"
+                  onerror="this.remove()"
+                /><span>Add images/liga-filipina.jpg</span><b>Liga Filipina</b>
+              </button>
+              <figcaption class="figcap">Founded in Manila, July 1892.</figcaption>
+            </figure>
+          </div>
+          <p>
+            In 1891–92 he explored resettling Calamba tenants in British North Borneo, an idea that
+            went nowhere. He returned to Manila and, on July 3, 1892, founded the Liga Filipina, a
+            civic association meant to unite Filipinos, protect members, support education,
+            agriculture, and commerce, and encourage reform. Three days later he was arrested and
+            soon deported to Dapitan. Andrés Bonifacio founded the Katipunan the day after Rizal's
+            arrest, and the Katipunan later used Rizal's name, but Rizal himself did not join it.
+          </p>
+          <p>
+            This is why historians separate what Rizal did from what others made of him. He sought
+            reform and criticized the premature 1896 uprising. Yet his writings and his example
+            inspired those who chose revolution. Both facts are true, and a careful reader keeps
+            them apart.
+          </p>
+          <button class="why" aria-expanded="false" aria-controls="w6">Discover the impact</button>
+          <div class="panel" id="w6" hidden>
+            <dl>
+              <dt>What happened?</dt>
+              <dd>He wrote for La Solidaridad and founded the Liga Filipina.</dd>
+              <dt>Why was it important?</dt>
+              <dd>
+                It turned private conviction into organized civic action, in print and in an
+                association.
+              </dd>
+              <dt>How did it influence him?</dt>
+              <dd>
+                The authorities' hostility to peaceful reform showed the limits of what the colonial
+                system would allow.
+              </dd>
+              <dt>What did he do as a result?</dt>
+              <dd>
+                He returned to the Philippines despite warnings and later continued community-based
+                work in Dapitan.
+              </dd>
+              <dt>How did it contribute to his journey to heroism?</dt>
+              <dd>
+                His commitment to peaceful reform, even at personal risk, made him a moral reference
+                point for Filipino nationalism.
+              </dd>
+            </dl>
+          </div>
+          <button class="why" aria-expanded="false" aria-controls="w7">
+            What changed because of this?
+          </button>
+          <div class="panel" id="w7" hidden>
+            <dl>
+              <dt>What happened?</dt>
+              <dd>Rizal was arrested days after founding the Liga Filipina in 1892.</dd>
+              <dt>Why was it important?</dt>
+              <dd>It showed that even a mild civic association could be treated as a threat.</dd>
+              <dt>How did it influence him?</dt>
+              <dd>Many Filipinos concluded that reform through petition had little chance.</dd>
+              <dt>What did he do as a result?</dt>
+              <dd>Some, including the Katipunan, chose a different path.</dd>
+              <dt>How did it contribute to his journey to heroism?</dt>
+              <dd>The same event made Rizal a symbol, even though he had not chosen revolution.</dd>
+            </dl>
+          </div>
+        </div>
+        <aside class="takeaway">
+          <h3>Key takeaway</h3>
+          <p>
+            Rizal argued for reform, equality, and representation; later movements drew on him in
+            different ways.
+          </p>
+          <p class="q">Reflect: How can peaceful advocacy bring change today?</p>
+        </aside>
+      </section>
+      <section class="chapter" id="exile" data-title="The Exile" hidden>
+        <header class="ch-head">
+          <h2 tabindex="-1">Chapter 6: The Exile</h2>
+          <p class="lede">Banished to a small town, he built.</p>
+        </header>
+        <div class="story">
+          <div class="split rev">
+            <div>
+              <p>
+                From July 1892 to July 1896, Rizal lived in Dapitan, a small coastal town in
+                Mindanao now part of Zamboanga del Norte. He was not imprisoned in the usual sense.
+                He could walk, work, and receive visitors, though he was watched and could not
+                leave. The local commandant, Ricardo Carnicero, became a friend. When Rizal won a
+                share of a lottery prize, he used it to buy land in Talisay, built a house, and set
+                up a farm.
+              </p>
+              <p>
+                He opened a clinic and treated patients, including eye cases that others had given
+                up on. His mother travelled to Dapitan in 1895, and he operated on her eyes. He
+                started a school for boys, who learned languages, mathematics, sciences, and
+                practical trades, and he made a relief map of Mindanao in the town plaza. He helped
+                improve the town's water supply, introduced better farming and trade, and studied
+                local plants, animals, and languages.
+              </p>
+            </div>
+            <figure class="ph">
+              <button class="ph-btn" data-label="Dapitan, Zamboanga del Norte">
+                <img
+                  src="images/dapitan.jpg"
+                  alt="Dapitan town view"
+                  onerror="this.remove()"
+                /><span>Add images/dapitan.jpg</span><b>Dapitan, Zamboanga del Norte</b>
+              </button>
+              <figcaption class="figcap">The town where Rizal lived from 1892 to 1896.</figcaption>
+            </figure>
+          </div>
+          <div class="gallery">
+            <figure class="ph">
+              <button class="ph-btn" data-label="Josephine Bracken">
+                <img
+                  src="images/josephine-bracken.jpg"
+                  alt="Portrait of Josephine Bracken"
+                  onerror="this.remove()"
+                /><span>Add images/josephine-bracken.jpg</span><b>Josephine Bracken</b>
+              </button>
+              <figcaption class="figcap">
+                She came to Dapitan in 1895 and became his companion.
+              </figcaption>
+            </figure>
+            <figure class="ph">
+              <button class="ph-btn" data-label="Zamboanga del Norte">
+                <img
+                  src="images/zamboanga-del-norte.jpg"
+                  alt="Landscape in Zamboanga del Norte"
+                  onerror="this.remove()"
+                /><span>Add images/zamboanga-del-norte.jpg</span><b>Zamboanga del Norte</b>
+              </button>
+              <figcaption class="figcap">The province where Dapitan lies.</figcaption>
+            </figure>
+          </div>
+          <p>
+            Exile restricted his freedom but not his usefulness. In Dapitan the education he had
+            gained in Manila and Europe became practical: medical care, teaching, small engineering,
+            and farming. The same values he had written about, such as dignity, learning, and
+            responsibility to others, appeared in daily acts. He also continued corresponding with
+            scholars around the world, so isolation never became intellectual silence.
+          </p>
+          <button class="why" aria-expanded="false" aria-controls="w8">Why did this matter?</button>
+          <div class="panel" id="w8" hidden>
+            <dl>
+              <dt>What happened?</dt>
+              <dd>
+                He lived four years in Dapitan, working as doctor, teacher, farmer, and community
+                builder.
+              </dd>
+              <dt>Why was it important?</dt>
+              <dd>It showed his ideals in daily action rather than only in writing.</dd>
+              <dt>How did it influence him?</dt>
+              <dd>
+                Working with ordinary people tested his belief that education and health were
+                foundations of progress.
+              </dd>
+              <dt>What did he do as a result?</dt>
+              <dd>He kept teaching, healing, and building until he left in July 1896.</dd>
+              <dt>How did it contribute to his journey to heroism?</dt>
+              <dd>
+                It demonstrated service and consistency under restriction, which strengthened how
+                later Filipinos remembered him.
+              </dd>
+            </dl>
+          </div>
+          <button class="why" aria-expanded="false" aria-controls="w9">
+            Was exile only a period of waiting?
+          </button>
+          <div class="panel" id="w9" hidden>
+            <dl>
+              <dt>What happened?</dt>
+              <dd>Rizal was confined to Dapitan by order of the colonial government.</dd>
+              <dt>Why was it important?</dt>
+              <dd>A person with fewer commitments might have waited for the sentence to end.</dd>
+              <dt>How did it influence him?</dt>
+              <dd>He chose to use his skills for the town around him.</dd>
+              <dt>What did he do as a result?</dt>
+              <dd>He taught, treated patients, built things, and kept studying and writing.</dd>
+              <dt>How did it contribute to his journey to heroism?</dt>
+              <dd>
+                His conduct in exile made it hard to claim that his goals were only personal
+                ambition.
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <aside class="takeaway">
+          <h3>Key takeaway</h3>
+          <p>In Dapitan, Rizal's values appeared as concrete service to others.</p>
+          <p class="q">Reflect: How can you make a difference where you are placed?</p>
+        </aside>
+      </section>
+      <section class="chapter" id="final" data-title="The Final Journey" hidden>
+        <header class="ch-head">
+          <h2 tabindex="-1">Chapter 7: The Final Journey</h2>
+          <p class="lede">A sober account of his last months.</p>
+        </header>
+        <div class="story">
+          <div class="split">
+            <div>
+              <p>
+                In mid-1896 the Katipunan was preparing a revolt. One of its members, Pío
+                Valenzuela, visited Rizal in Dapitan to seek his view; Rizal advised against
+                starting an uprising without proper preparation. Soon afterward, he asked to serve
+                as a doctor in Cuba, and the governor-general agreed. He left Dapitan on July 31,
+                1896. While he was at sea, the revolt broke out in August.
+              </p>
+              <p>
+                He was arrested on the way to Spain and sent back to Manila, where he was imprisoned
+                in Fort Santiago. On December 15 he wrote a manifesto condemning the uprising and
+                denying involvement. He was nevertheless charged with rebellion and tried by a
+                military court on December 26. The verdict was death.
+              </p>
+            </div>
+            <figure class="ph">
+              <button class="ph-btn" data-label="Fort Santiago, Manila">
+                <img
+                  src="images/fort-santiago.jpg"
+                  alt="Fort Santiago in Manila"
+                  onerror="this.remove()"
+                /><span>Add images/fort-santiago.jpg</span><b>Fort Santiago, Manila</b>
+              </button>
+              <figcaption class="figcap">
+                Rizal was held in Fort Santiago in his final weeks.
+              </figcaption>
+            </figure>
+          </div>
+          <ol class="steps">
+            <li><b>Jul 31, 1896</b> Leaves Dapitan for Manila and Spain</li>
+            <li><b>Aug 1896</b> The Philippine Revolution begins</li>
+            <li><b>Nov 1896</b> Returned to Manila, held at Fort Santiago</li>
+            <li><b>Dec 26, 1896</b> Military trial</li>
+            <li><b>Dec 30, 1896</b> Executed at Bagumbayan</li>
+          </ol>
+          <div class="split rev">
+            <div>
+              <p>
+                On the morning of December 30, 1896, Rizal was taken to Bagumbayan, the field that
+                is now part of Rizal Park, and shot by a firing squad. He was thirty-five. The night
+                before, he wrote his farewell poem, and accounts describe him as calm. What he did
+                during those last hours matters less for drama than for what it shows: he did not
+                retract his belief in reform, and he did not ask others to take up arms in his name.
+              </p>
+              <p>
+                His death shocked many Filipinos, including those who had never read his books. It
+                turned a respected writer into a martyr almost overnight. Colonial authorities
+                believed that his execution would end a threat; for many Filipinos, it had the
+                opposite effect.
+              </p>
+            </div>
+            <figure class="ph">
+              <button class="ph-btn" data-label="Rizal Park, Manila">
+                <img
+                  src="images/rizal-park.jpg"
+                  alt="Rizal Park in Manila"
+                  onerror="this.remove()"
+                /><span>Add images/rizal-park.jpg</span><b>Rizal Park, Manila</b>
+              </button>
+              <figcaption class="figcap">
+                The field where he was executed now forms part of Rizal Park.
+              </figcaption>
+            </figure>
+          </div>
+          <button class="why" aria-expanded="false" aria-controls="w10">
+            What changed because of this?
+          </button>
+          <div class="panel" id="w10" hidden>
+            <dl>
+              <dt>What happened?</dt>
+              <dd>
+                He was arrested, tried, and executed in 1896 while the revolution was starting.
+              </dd>
+              <dt>Why was it important?</dt>
+              <dd>
+                He was widely respected and had opposed the uprising, so the verdict seemed unjust
+                to many.
+              </dd>
+              <dt>How did it influence him?</dt>
+              <dd>In his final days he stood by his principles instead of renouncing them.</dd>
+              <dt>What did he do as a result?</dt>
+              <dd>He wrote his farewell poem and accepted the sentence.</dd>
+              <dt>How did it contribute to his journey to heroism?</dt>
+              <dd>
+                His death turned him into a national symbol. The meaning of that symbol was shaped
+                by later generations too.
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <aside class="takeaway">
+          <h3>Key takeaway</h3>
+          <p>
+            His final decisions and the circumstances of his death gave his life lasting national
+            meaning.
+          </p>
+          <p class="q">
+            Reflect: What does it mean to stay true to your principles when pressured?
+          </p>
+        </aside>
+      </section>
+      <section class="chapter" id="hero" data-title="The Hero" hidden>
+        <header class="ch-head">
+          <h2 tabindex="-1">Chapter 8: The Hero</h2>
+          <p class="lede">Putting the evidence together.</p>
+        </header>
+        <div class="story">
+          <div class="split">
+            <figure class="ph">
+              <button class="ph-btn" data-label="José Rizal">
+                <img
+                  src="images/rizal.jpg"
+                  alt="Photograph or portrait of José Rizal"
+                  onerror="this.remove()"
+                /><span>Add images/jose-rizal.jpg</span><b>José Rizal</b>
+              </button>
+              <figcaption class="figcap">A historical image of Rizal.</figcaption>
+            </figure>
+            <div>
+              <p>
+                A hero is shaped by what a person does and by how others remember it. Rizal's life
+                follows a sequence. A learning-centered family gave him values. An early encounter
+                with injustice gave him questions. Schooling gave him tools. Travel gave him
+                comparison. Writing gave him voice. Reform gave him purpose. Dapitan gave him proof
+                of sincerity. His death gave him a place in the nation's memory.
+              </p>
+            </div>
+          </div>
+          <h3>How the stages connect</h3>
+          <p>
+            <strong>Values and curiosity.</strong> His mother's lessons and his love of learning
+            appear in everything he later did, from his Ateneo years to his school in Dapitan.
+            <strong>Exposure to ideas.</strong> In Europe, he saw how a free press and open
+            universities worked, and that experience strengthened his conviction that Filipinos
+            deserved more. <strong>Writing.</strong> He decided to use books and essays to describe
+            social problems, knowing the risks.
+          </p>
+          <p>
+            <strong>Reform.</strong> He argued for education, equality, and representation, and
+            formed the Liga Filipina. <strong>Exile.</strong> In Dapitan he showed that his
+            principles could be lived locally. <strong>Death.</strong> His execution made him a
+            symbol, and the way he faced it shaped how later generations judged him.
+          </p>
+          <div class="split rev">
+            <div>
+              <h3>Documented intentions and later meaning</h3>
+              <p>
+                What Rizal documented was a desire for reform, education, and dignity for Filipinos,
+                and a rejection of the 1896 uprising as premature. What others later attributed to
+                him was more: father of the nation, symbol of revolution, even a figure for national
+                identity. In 1956, Republic Act No. 1425, the Rizal Law, required students to study
+                his life and writings, which made him a shared reference point, though not without
+                debate. A critical reader respects both his own record and the meaning that grew
+                around it.
+              </p>
+            </div>
+            <figure class="ph">
+              <button class="ph-btn" data-label="Rizal Monument, Manila">
+                <img
+                  src="images/rizal-monument.jpg"
+                  alt="Rizal Monument in Manila"
+                  onerror="this.remove()"
+                /><span>Add images/rizal-monument.jpg</span><b>Rizal Monument, Manila</b>
+              </button>
+              <figcaption class="figcap">
+                The monument in Rizal Park marks where he is buried and remembered.
+              </figcaption>
+            </figure>
+          </div>
+          <button class="why" aria-expanded="false" aria-controls="w11">Connect the events</button>
+          <div class="panel" id="w11" hidden>
+            <dl>
+              <dt>What happened?</dt>
+              <dd>
+                Across thirty-five years, experiences moved him from student to writer to reformer
+                to exile.
+              </dd>
+              <dt>Why was it important?</dt>
+              <dd>
+                Each stage supplied something the next one required: values, skills, perspective,
+                voice, and credibility.
+              </dd>
+              <dt>How did it influence him?</dt>
+              <dd>
+                His writings show a steady concern with justice, education, and responsibility.
+              </dd>
+              <dt>What did he do as a result?</dt>
+              <dd>He chose open argument and service over silence, even when it was costly.</dd>
+              <dt>How did it contribute to his journey to heroism?</dt>
+              <dd>
+                No single event explains it. The combination of ideas, choices, and consequences,
+                interpreted by later Filipinos, did.
+              </dd>
+            </dl>
+          </div>
+          <h3>Reflection for Filipino youth</h3>
+          <p>
+            Rizal's life suggests habits worth practicing: study seriously, think critically,
+            communicate responsibly, take part in civic life, and act with courage for others. We
+            should not assume he would endorse every modern opinion or movement. The lesson is the
+            method, not a script.
+          </p>
+          <ul class="qs">
+            <li>What problem in your community deserves your attention?</li>
+            <li>How can you check a claim before sharing it online?</li>
+            <li>What small act of service could you begin this month?</li>
+          </ul>
+        </div>
+        <aside class="takeaway">
+          <h3>Key takeaway</h3>
+          <p>
+            Rizal became a hero through connected experiences, deliberate choices, and the meaning
+            later generations gave them.
+          </p>
+          <p class="q">Reflect: What would you want your own choices to say about you?</p>
+        </aside>
+      </section>
+      <!-- REFERENCES -->
+      <section class="chapter" id="refs" data-title="References and Sources" hidden>
+        <header class="ch-head">
+          <h2 tabindex="-1">References and Sources</h2>
+        </header>
+        <div class="story">
+          <ul class="refs">
+            <li>
+              National Historical Commission of the Philippines. Rizal and related historical
+              materials. <a href="https://nhcp.gov.ph/">nhcp.gov.ph</a>
+            </li>
+            <li>
+              National Library of the Philippines. Digital collections.
+              <a href="https://www.nlp.gov.ph/">nlp.gov.ph</a>
+            </li>
+            <li>
+              Official Gazette of the Philippines. Texts of Republic Act No. 1425 (1956) and related
+              documents. <a href="https://www.officialgazette.gov.ph/">officialgazette.gov.ph</a>
+            </li>
+            <li>
+              Guerrero, Leon Ma. <em>The First Filipino: A Biography of Jose Rizal.</em> National
+              Historical Institute, 1963.
+            </li>
+            <li>Ocampo, Ambeth R. <em>Rizal Without the Overcoat.</em> Anvil Publishing.</li>
+            <li>
+              Schumacher, John N. <em>The Propaganda Movement: 1880–1895.</em> Ateneo de Manila
+              University Press.
+            </li>
+            <li>
+              Rizal, Jose. <em>Noli Me Tangere</em> (1887) and <em>El Filibusterismo</em> (1891), as
+              published in editions by the National Historical Institute.
+            </li>
+            <li>
+              Austin Craig.
+              <em>Lineage, Life and Labors of José Rizal, Philippine Patriot.</em> Project Gutenberg
+              ebook #6867.
+              <a href="https://www.gutenberg.org/ebooks/6867">gutenberg.org/ebooks/6867</a>
+            </li>
+            <li>
+                  Jose Rizal : <a href="https://www.vedantu.com/seo/content-images/a928e5ba-f820-4d9b-b0b6-544671a0ff36_compressed_31.jpg">jose-rizal.jpg</a>
+                </li>
+                <li>
+                  Calamba, Laguna : <a href="https://i.pinimg.com/736x/8b/10/94/8b10942b829f4c903d0cb839be59e3a9.jpg">calamba-laguna.jpg</a>
+                </li>
+                <li>
+                  Gomburza : <a href="https://images.gmanews.tv/webpics/2022/09/gomburza_2022_09_07_16_33_27.png">gomburza.jpg</a>
+                </li>
+                <li>
+                  Teodora Alonso Realonda : <a href="https://www.affordablecebu.com/pictures/articles/philippine_gov/Teodora_Alonzo.jpg">teodora-alonso-realonda.jpg</a>
+                </li>
+                <li>
+                  Paciano Rizal : <a href="https://kahimyang.com/resources-10/paciano-rizal-sm.webp">paciano-rizal.jpg</a>
+                </li>
+                <li>
+                  Laguna de Bay : <a href="https://facts.net/wp-content/uploads/2023/09/14-fascinating-facts-about-laguna-de-bay-1695228500.jpg">laguna-de-bay.jpg</a>
+                </li>
+                <li>
+                  Ateneo de Manila : <a href="https://www.ateneo.edu/sites/default/files/styles/wide/public/2022-02/av-DSC00011.JPG?itok=x3lSy91W">ateneo-de-manila-university.jpg</a>
+                </li>
+                <li>
+                  University of Santo Tomas : <a href="https://th.bing.com/th/id/R.fe6db69588f70471aa02ede7acb512e0?rik=XcGbXYlhYcSU9w&amp;riu=http%3a%2f%2f2.bp.blogspot.com%2f-BwzMEPGzsyw%2fUOIM6LQ7s6I%2fAAAAAAAAsbk%2fTNjyZUhr_rs%2fs1600%2f4662562179_9353b88435_o.jpg&amp;ehk=bXLPpO9223PFdNEaVAmGm2dU%2bCkNeCr09pe%2bblWD%2b1k%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0">university-of-santo-tomas.jpg</a>
+                </li>
+                <li>
+                  Universidad Central de Madrid : <a href="https://th.bing.com/th/id/R.7d595d565887e1e13ff9f9e24aa8ea3f?rik=rzqU7yw7VaxK1w&amp;riu=http%3a%2f%2ffarm5.staticflickr.com%2f4111%2f4846169953_4b5bb7ee08_z.jpg&amp;ehk=hrDjBuVdkA6vjRIhlLc4vwwOb3aMTdzA1ZG39GNbgtA%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0">universidad-central-de-madrid.jpg</a>
+                </li>
+                <li>
+                  Heidelberg University : <a href="https://t3.ftcdn.net/jpg/00/98/10/30/360_F_98103018_PNHyy6UahzMnB9AWueqN9qTMLehqBBER.jpg">heidelberg-university.jpg</a>
+                </li>
+                <li>
+                  Paris : <a href="https://www.windowseat.ph/wp-content/uploads/2022/12/paris-france.jpg">paris.jpg</a>
+                </li>
+                <li>
+                  Academy of Fine Arts, Madrid : <a href="https://thumbs.dreamstime.com/b/san-fernando-royal-academy-fine-arts-madrid-spain-san-fernando-royal-academy-fine-arts-madrid-spain-154903032.jpg">madrid-fine-arts.jpg</a>
+                </li>
+                <li>
+                  Berlin : <a href="https://www.cardcow.com/images/set467/card00300_fr.jpg">berlin.jpg</a>
+                </li>
+                <li>
+                  Madrid : <a href="https://media.timeout.com/images/101551793/1920/1440/image.jpg">madrid.jpg</a>
+                </li>
+                <li>
+                  British Museum : <a href="https://tinig-uk.com/wp-content/uploads/2025/07/british-museum-5200534_1280-edited-1.jpg">british-museum.jpg</a>
+                </li>
+                <li>
+                  Wilhelmsfeld, Germany : <a href="https://mynstv.com/wp-content/uploads/2026/03/20260316_201343.jpg">wilhelmsfeld.jpg</a>
+                </li>
+                <li>
+                  Hong Kong : <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMvX5NRkZLin648Fucvxq08mKQkOCGcE2XsRpJhgdWAvyQatVuhcuW3kyUGWlx2LS5tOzqyDuZ7GAx0BZzdJwFyVMvusFX5eqw9-gLUGFE3XN0u4nolpfYFn0jzXOJe_fNjguG_ak81l4/s1600/rizal+in+hong+kong+18.JPG">hong-kong.jpg</a>
+                </li>
+                <li>
+                  Noli Me Tangere : <a href="https://d3525k1ryd2155.cloudfront.net/f/693/039/9780143039693.RH.0.x.jpg">noli-me-tangere.jpg</a>
+                </li>
+                <li>
+                  El Filibusterismo : <a href="https://down-ph.img.susercontent.com/file/ph-11134207-7r98t-lmg2tnyrc0pb42">el-filibusterismo.jpg</a>
+                </li>
+                <li>
+                  Mi Ultimo Adios : <a href="https://rizal.raphaelmarco.com/static/files/literatures/mi-ultimo-adios.jpg">mi-ultimo-adios.jpg</a>
+                </li>
+                <li>
+                  Ghent, Belgium : <a href="https://images.gmanews.tv/webpics/2018/07/ghent_cover_2018_07_16_18_11_17.jpg">ghent.jpg</a>
+                </li>
+                <li>
+                  La Solidaridad : <a href="https://1.bp.blogspot.com/-pVhV0VbqFfM/VYdkUQer_vI/AAAAAAAADdk/ijX4Q-QPJA4/s1600/020b%2BSolidaridad.jpg">la-solidaridad.jpg</a>
+                </li>
+                <li>
+                  Morga's Sucesos de las Islas Filipinas : <a href="https://m.media-amazon.com/images/I/81mPmntqq4L._SL1500_.jpg">morga-sucesos.jpg</a>
+                </li>
+                <li>
+                  Ferdinand Blumentritt : <a href="https://kahimyang.com/resources/ferdinand-blumentritt-og.jpg">ferdinand-blumentritt.jpg</a>
+                </li>
+                <li>
+                  Letters to Blumentritt : <a href="https://3.bp.blogspot.com/-r49O5fNZ_uc/WBPuykIV1XI/AAAAAAAABg8/kEpbBbwx4EsadcNS9-C3XwPlGTQsKG34gCLcB/s1600/13512211_1105781022801076_2287833763367133154_n.jpg">rizal-letters.jpg</a>
+                </li>
+                <li>
+                  Statutes of the Liga Filipina : <a href="https://image.slidesharecdn.com/socio5-13laligaandexileindapitan-150319053812-conversion-gate01/85/Socio5-13-la-liga-and-exile-in-dapitan-1-320.jpg">liga-filipina-statutes.jpg</a>
+                </li>
+                <li>
+                  Marcelo H. del Pilar : <a href="https://c8.alamy.com/comp/KKMNXP/marcelo-del-pilar-was-a-prominent-filipino-writer-and-nationalist-KKMNXP.jpg">marcelo-h-del-pilar.jpg</a>
+                </li>
+                <li>
+                  Graciano López Jaena : <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigh_3lhPa8ipqQRltfLByBi_Hiqt8TQBPy58jkutJH7wEbxhwnhDy7ju6-g7CbEXgJCMdkinRB-eBHtt6NeKqEXx2EeQTauNByCJiUUH7CbrvFguvmQBqTLhfDbJSRT1Z8UBlu_StsAckx/s1600/Graciano+Lopez+Jaena.jpg">graciano-lopez-jaena.jpg</a>
+                </li>
+                <li>
+                  Liga Filipina : <a href="https://kahimyang.com/resources-7/rizal-la-liga-filipina-rizal.jpg">liga-filipina.jpg</a>
+                </li>
+                <li>
+                  Dapitan, Zamboanga del Norte : <a href="https://i.ytimg.com/vi/vuRMA50AT7U/maxresdefault.jpg">dapitan.jpg</a>
+                </li>
+                <li>
+                  Josephine Bracken : <a href="https://rizal.raphaelmarco.com/static/files/josephine-bracken2.jpg">josephine-bracken.jpg</a>
+                </li>
+                <li>
+                  Zamboanga del Norte : <a href="https://images.summitmedia-digital.com/spotph/images/2023/02/15/dapitan-rizal-shrine-1676461883.jpg">zamboanga-del-norte.jpg</a>
+                </li>
+                <li>
+                  Fort Santiago, Manila : <a href="https://www.thevacationgateway.com/blog-data/uploads/2019/05/1024px-Fort_santiago_3itramuros-1024x710.jpg">fort-santiago.jpg</a>
+                </li>
+                <li>
+                  Rizal Park, Manila : <a href="https://i.redd.it/g01emngcuhy11.jpg">rizal-park.jpg</a>
+                </li>
+                <li>
+                  Rizal (The Hero chapter) : <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio5tGM3WOptztPiBKWYQXTzzKh8zl0Twye9GafbVYcRlCU3x9gRs_Wm1usBvQbUpsMjt-xKGh5Zo52HS_f5mLzNH8G8ibVgqANFvTQiak8BGwjwQkf4C55HYzHl6NOi_aNKJG7Y-Wkisu-xw4mJmjroQR0wTxDt_DnUm54VMfAp6hfCGxTlFWd50l1PIJr/s580/1000083101.jpg">rizal-hero.jpg</a>
+                </li>
+                <li>
+                  Rizal Monument, Manila : <a href="https://as2.ftcdn.net/v2/jpg/03/88/71/61/1000_F_388716181_VJn39ZaHREgHP1cumEbUGO6V7KPDvGgH.jpg">rizal-monument.jpg</a>
+</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <dialog id="lb" aria-labelledby="lb-t">
+      <h3 id="lb-t"></h3>
+      <div id="lb-img" class="lb-img"></div>
+      <p id="lb-c"></p>
+      <p class="note" id="lb-n"></p>
+      <button id="lb-x" autofocus>Close</button>
+    </dialog>
+    <noscript
+      ><p class="ns">
+        JavaScript is off: all chapters are shown on one page. Photos, the voice reader and detail
+        panels need JavaScript.
+      </p></noscript
+    >
+    <script src="script.js"></script>
+  </body>
+</html>
